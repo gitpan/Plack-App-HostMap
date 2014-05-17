@@ -49,7 +49,6 @@ sub call {
 	if($self->{_dps}) {
 		my $root = $self->{_dps}->get_root_domain($http_host);	
 		if($self->{_all_subdomains}->{$root} and $self->{_map}->{$root}) {
-			warn "ROOT $root\n";
 			$http_host = $root;
 		}
 	}
@@ -74,7 +73,7 @@ Plack::App::HostMap - Map multiple Plack apps by host
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
