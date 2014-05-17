@@ -1,4 +1,7 @@
 Revision history for Plack::App::HostMap
 
-0.001     2014-05-17 12:36:13-07:00 America/Los_Angeles
+0.002     2014-05-17 12:59:35-07:00 America/Los_Angeles
+	Updated Documentation 
+
+0.002     2014-05-17 12:59:35-07:00 America/Los_Angeles
 	First release to the world!
